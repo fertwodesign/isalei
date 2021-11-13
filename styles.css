@@ -26,12 +26,11 @@ h1, ul, img {
 	background-color: #000000;
 	border: 1px solid #f06495;
 }
-
 .nav h1 {
 	margin: 25px;
 	color: #f06495;
 	font-size: 45px;
-	margin-left: 800px;
+	margin-left: 900px;
 }
 
 .nav__ul {
@@ -197,7 +196,7 @@ h1, ul, img {
 }
 
 .product-container {
-	margin-left: 15px;
+	margin-left: 2px;
 	padding: 2px 16px;
 	position: relative;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -253,16 +252,16 @@ h1, ul, img {
 	height: 90px;
 }
 .foot__ul {
-	margin: -7px;
+	margin: 0px;
 	color: #f06495;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Secular One', sans-serif;
 
 }
 
 .foot__li {
 	display: inline-block;
-	padding: 10px;
+	padding: 8px;
 }
 
 .foot__li a {
@@ -281,7 +280,7 @@ footer {
 	border: 1px solid #f06495;
 	color: #f06495;
 	font-size: 20px;
-	font-family: 'Secular One', sans-serif;
+	font-family: 'Cinzel', serif;
 	text-align: center;
 	margin-top: 20px;
 	padding-bottom: : 0px;
@@ -293,4 +292,5 @@ footer {
 }
 h5 {
 	margin: 0px;
+	font-size: 11px;
 }
