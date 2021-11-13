@@ -310,7 +310,7 @@ h5 {
 	.nav h1 {
 	margin: 20px;
 	color: #f06495;
-	font-size: 35px;
+	font-size: 37px;
 	margin-left: 230px;
 	}
 
@@ -344,15 +344,15 @@ h5 {
 	position: absolute;
 	padding: 5px;
 	margin: 1px;
-	left: 20px;
-	margin: 3px;
+	left: 5px;
+	margin: 5px;
 	}
 
 	.buscar input {
 	width: 0px;
-	height: 36px;
-	padding: 0px 20px;
-	font-size: 14px;
+	height: 30px;
+	padding: 0px 15px;
+	font-size: 11px;
 	font-family: 'Secular One', sans-serif;
 	color: #000;
 	outline: none;
@@ -366,9 +366,9 @@ h5 {
 	top:0;
 	right: 0;
 	background: #f06495;
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
 	text-align: center;
 	color: white;
 	font-size: 12px;
@@ -376,10 +376,10 @@ h5 {
 	cursor: pointer;
 	}
 	.buscar:hover input {
-	width: 120px; 
+	width: 100px; 
 	}
 	.buscar input:focus {
-	width: 120px; 
+	width: 100px; 
 	}
 	.sub {
 	text-align: center;
@@ -387,7 +387,6 @@ h5 {
 	border: 1px solid #f06495;
 	}
 	.sub__ul {
-
 	margin: -7px;
 	color: #f06495;
 	font-size: 25px;
