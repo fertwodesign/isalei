@@ -1,0 +1,296 @@
+body {
+	margin:0px;
+	background-color: #fef8f7;
+	font-family: 'Lobster', cursive;
+}
+
+.logo {
+	height: 40px;
+	width: 40px;
+	margin-top: 5px;
+	margin-left: -12px;
+}
+
+button {
+	font-size: 16px;
+	text-align: center;
+	border-radius: 8px;
+	padding: 10px 20px;
+}
+
+h1, ul, img {
+	display: inline;
+}
+
+.nav {
+	background-color: #000000;
+	border: 1px solid #f06495;
+}
+
+.nav h1 {
+	margin: 25px;
+	color: #f06495;
+	font-size: 45px;
+	margin-left: 800px;
+}
+
+.nav__ul {
+	float: right;
+	margin: -3px;
+	color: #f06495;
+	font-size: 35px;
+	top: -1000px;
+	padding-right: 10px;
+}
+
+.nav__li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.nav__li a {
+	color: #f06495;
+	text-decoration: none;
+	font-size: 22px;
+	font-family: 'Secular One', sans-serif;
+}
+
+.nav__li:hover > a {
+	color: #F28773;
+	text-decoration: none;
+}
+
+
+
+
+
+.buscar {
+	position: absolute;
+	padding: 5px;
+	margin: 1px;
+	left: 20px;
+	margin: 3px;
+}
+
+.buscar input {
+	width: 0px;
+	height: 36px;
+	padding: 0px 20px;
+	font-size: 17px;
+	font-family: 'Secular One', sans-serif;
+	color: #000;
+	outline: none;
+	border: 1px solid #f06495;
+	border-radius: 29px;
+	transition: all 0.6s ease;
+}
+
+.btn {
+	position: absolute;
+	top:0;
+	right: 0;
+	background: #f06495;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.buscar:hover input {
+	width: 240px; 
+}
+.buscar input:focus {
+	width: 240px; 
+}
+
+
+
+
+
+
+
+.sub {
+	text-align: center;
+	background: #000000;
+	border: 1px solid #f06495;
+}
+.sub__ul {
+
+	margin: -7px;
+	color: #f06495;
+	font-size: 25px;
+	top: -1000px;
+	padding-right: 10px;
+}
+
+.sub__li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.sub__li a {
+	color: #f06495;
+	font-size: 25px;
+}
+
+.sub__li:hover > a {
+	color: #F28773;
+	text-decoration-color: #F28773;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+.slider {
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
+	height: 100%;
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite alternate;
+	animation-timing-function: ease-in;
+}
+
+.slider li {
+	width: 100%;
+
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+}
+
+
+
+.page-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 4px;
+}
+
+.product-container {
+	margin-left: 15px;
+	padding: 2px 16px;
+	position: relative;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	background-color: white;
+}
+
+.product-container:hover {
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.product-container img {
+	width: 300px;
+}
+
+.button-add {
+	background-color: white;
+	border: 2px solid #f06495;
+	color: black;
+	transition-duration: 0.4s;
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
+
+.button-add:hover {
+	background-color: #f06495;
+	color: white;
+}
+
+.product-container h2 {
+	font-size: 23px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	color: #f06495;
+	text-shadow: 8px;
+	font-family: 'Arvo', serif;
+}
+
+.product-container h3 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: #F28773;
+}
+
+
+
+
+.foot {
+	text-align: center;
+	background: #000000;
+	border: 1px solid #f06495;
+	height: 90px;
+}
+.foot__ul {
+	margin: -7px;
+	color: #f06495;
+	font-size: 20px;
+	font-family: 'Secular One', sans-serif;
+
+}
+
+.foot__li {
+	display: inline-block;
+	padding: 10px;
+}
+
+.foot__li a {
+	color: #f06495;
+	font-size: 20px;
+}
+
+.foot__li:hover > a {
+	color: #F28773;
+	text-decoration-color: #F28773;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+footer {
+	background-color: #000000;
+	border: 1px solid #f06495;
+	color: #f06495;
+	font-size: 20px;
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: : 0px;
+	width: 100%;
+    height: 81px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+h5 {
+	margin: 0px;
+}
