@@ -295,3 +295,90 @@ h5 {
 	font-size: 11px;
 	font-family: 'Cinzel', serif;
 }
+
+
+
+
+@media screen and (max-width: 800px){
+	.slider {
+		width: 100%
+	}
+	.nav {
+	background-color: #000000;
+	border: 1px solid #f06495;
+    }
+	.nav h1 {
+	margin: 25px;
+	color: #f06495;
+	font-size: 40px;
+	margin-left: 300px;
+	}
+
+	.nav__ul {
+	float: right;
+	margin: -3px;
+	color: #f06495;
+	font-size: 20px;
+	top: -1000px;
+	padding-right: 50px;
+	}
+
+	.nav__li {
+	display: inline-block;
+	padding: 5px;
+	}
+
+	.nav__li a {
+	color: #f06495;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Secular One', sans-serif;
+	}
+
+	.nav__li:hover > a {
+	color: #F28773;
+	text-decoration: none;
+	}
+
+	.buscar {
+	position: absolute;
+	padding: 5px;
+	margin: 1px;
+	left: 20px;
+	margin: 3px;
+	}
+
+	.buscar input {
+	width: 0px;
+	height: 36px;
+	padding: 0px 20px;
+	font-size: 14px;
+	font-family: 'Secular One', sans-serif;
+	color: #000;
+	outline: none;
+	border: 1px solid #f06495;
+	border-radius: 29px;
+	transition: all 0.6s ease;
+	}
+
+	.btn {
+	position: absolute;
+	top:0;
+	right: 0;
+	background: #f06495;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	border-radius: 50%;
+	cursor: pointer;
+	}
+	.buscar:hover input {
+	width: 120px; 
+	}
+	.buscar input:focus {
+	width: 120px; 
+	}
+}
