@@ -308,10 +308,10 @@ h5 {
 	border: 1px solid #f06495;
     }
 	.nav h1 {
-	margin: 25px;
+	margin: 20px;
 	color: #f06495;
-	font-size: 40px;
-	margin-left: 300px;
+	font-size: 35px;
+	margin-left: 230px;
 	}
 
 	.nav__ul {
@@ -331,7 +331,7 @@ h5 {
 	.nav__li a {
 	color: #f06495;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 12px;
 	font-family: 'Secular One', sans-serif;
 	}
 
@@ -381,4 +381,32 @@ h5 {
 	.buscar input:focus {
 	width: 120px; 
 	}
+	.sub {
+	text-align: center;
+	background: #000000;
+	border: 1px solid #f06495;
+	}
+	.sub__ul {
+
+	margin: -7px;
+	color: #f06495;
+	font-size: 25px;
+	top: -1000px;
+	padding-right: 10px;
+	}
+
+	.sub__li {
+	display: inline-block;
+	padding: 10px;
+	}
+
+	.sub__li a {
+	color: #f06495;
+	font-size: 20px;
+	}
+	.sub__li:hover > a {
+	color: #F28773;
+	text-decoration-color: #F28773;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
 }
