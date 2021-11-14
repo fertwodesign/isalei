@@ -144,7 +144,12 @@ h1, ul, img {
 
 
 
-
+.prox {
+	width: 50%;
+	margin: auto;
+	overflow: hidden;
+	height: 100%;
+}
 
 
 .slider {
