@@ -10,7 +10,9 @@
     <link rel="icon" href="img/logo.ico">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
-    <script src="scripts.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script src="https://kit.fontawesome.com/f8fe1e3b0f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
@@ -31,11 +33,41 @@
 
 
             <ul class="buscar">
-                <input type="text" placeholder="Buscar" required>
-                <div class="btn">
+    <input type="search" id="input-search" placeholder="Buscar">
+    <div class="btn">
                     <i class="fas fa-search icon"></i>
                 </div>
-            </ul>
+    <div class="content-search">
+        <div class="content-table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><a href="remeras.html">Remeras</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="buzos.html">Buzos</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="ojotas.html">Ojotas</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="shorts.html">Shorts</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </ul>
         </nav>
 
 
@@ -166,7 +198,7 @@
               <h5>Isalei. Todos los derechos reservados - Copyright 2021.</h5>
             </div>
         </footer>
-    
+        <script src="js/search.js"></script>
       </body>
 
 </html>

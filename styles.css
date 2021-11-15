@@ -63,46 +63,94 @@ h1, ul, img {
 
 
 
+#input-search{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.content-search{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+}
+
+.content-table{
+    width: 80%;
+    max-height: 200px;
+    height: auto;
+    background: rgba(0,0,0,0.3);
+    margin-left: 10px;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.content-table table{
+    width: 100%;
+}
+
+tbody tr td a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+tbody tr td a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+#table_length, #table_filter, #table_info, #table_paginate{
+    display: none;
+}
+
+
+.btn {
+    position: absolute;
+    top:0;
+    right: 0;
+    background: #f06495;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .buscar {
-	position: absolute;
-	padding: 5px;
-	margin: 1px;
-	left: 20px;
-	margin: 3px;
+    position: absolute;
+    padding: 5px;
+    margin: 1px;
+    left: 20px;
+    margin: 3px;
 }
 
 .buscar input {
-	width: 0px;
-	height: 36px;
-	padding: 0px 20px;
-	font-size: 17px;
-	font-family: 'Secular One', sans-serif;
-	color: #000;
-	outline: none;
-	border: 1px solid #f06495;
-	border-radius: 29px;
-	transition: all 0.6s ease;
+    width: 0px;
+    height: 36px;
+    padding: 0px 20px;
+    font-size: 17px;
+    font-family: 'Secular One', sans-serif;
+    color: #000;
+    outline: none;
+    border: 1px solid #f06495;
+    border-radius: 29px;
+    transition: all 0.6s ease;
 }
 
-.btn {
-	position: absolute;
-	top:0;
-	right: 0;
-	background: #f06495;
-	width: 48px;
-	height: 48px;
-	line-height: 48px;
-	text-align: center;
-	color: white;
-	font-size: 20px;
-	border-radius: 50%;
-	cursor: pointer;
-}
 .buscar:hover input {
-	width: 240px; 
+    width: 240px; 
 }
 .buscar input:focus {
-	width: 240px; 
+    width: 240px; 
 }
 
 
@@ -310,7 +358,12 @@ h5 {
 
 @media screen and (max-width: 800px){
 	.slider {
-		width: 100%
+		width: 100%;
+	}
+	.prox {
+		width: 100%;
+		display: flex;
+		list-style: none;
 	}
 	.nav {
 	background-color: #000000;
@@ -349,9 +402,25 @@ h5 {
 	text-decoration: none;
 	}
 
+		#input-search{
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    text-indent: 10px;
+	}
+
+	.content-search{
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    display: none;
+	}
 	.buscar {
 	position: absolute;
-	padding: 5px;
+	padding: 3px;
 	margin: 1px;
 	left: 5px;
 	top: 4px;
@@ -361,7 +430,7 @@ h5 {
 	.buscar input {
 	width: 0px;
 	height: 30px;
-	padding: 0px 12px;
+	padding: 0px 5px;
 	font-size: 11px;
 	font-family: 'Secular One', sans-serif;
 	color: #000;
@@ -418,5 +487,5 @@ h5 {
 	color: #F28773;
 	text-decoration-color: #F28773;
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
+	}
 }
