@@ -22,6 +22,7 @@ h1, ul, img {
 	display: inline;
 }
 
+
 .nav {
 	background-color: #000000;
 	border: 1px solid #f06495;
@@ -106,7 +107,6 @@ tbody tr td a:hover{
     display: none;
 }
 
-
 .btn {
     position: absolute;
     top:0;
@@ -149,6 +149,7 @@ tbody tr td a:hover{
 .buscar input:focus {
     width: 240px; 
 }
+
 
 .sub {
 	text-align: center;
@@ -197,6 +198,7 @@ tbody tr td a:hover{
 	padding: 5px;
 }
 
+
 .slider {
 	width: 50%;
 	margin: auto;
@@ -237,7 +239,6 @@ tbody tr td a:hover{
 }
 
 
-
 .page-content {
 	display: flex;
 	flex-wrap: wrap;
@@ -260,6 +261,7 @@ tbody tr td a:hover{
 .product-container img {
 	width: 300px;
 }
+
 
 .button-add {
 	background-color: white;
@@ -297,25 +299,31 @@ tbody tr td a:hover{
 }
 
 
-
-
-.foot {
-	text-align: center;
-	background: #000000;
+footer {
+	background-color: #000000;
 	border: 1px solid #f06495;
-	height: 90px;
+	color: #f06495;
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+	margin-top: 5px;
+	padding-bottom: 0px;
+	width: 100%;
+    height: 70px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
 .foot__ul {
 	margin: 0px;
 	color: #f06495;
 	font-size: 15px;
 	font-family: 'Secular One', sans-serif;
-
 }
 
 .foot__li {
 	display: inline-block;
-	padding: 8px;
+	padding: 5px;
 }
 
 .foot__li a {
@@ -330,26 +338,12 @@ tbody tr td a:hover{
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-footer {
-	background-color: #000000;
-	border: 1px solid #f06495;
-	color: #f06495;
-	font-size: 20px;
-	font-family: 'Cinzel', serif;
-	margin-top: 20px;
-	padding-bottom: 0px;
-	width: 100%;
-    height: 81px;
-    position: relative;
-    bottom: 0;
-    left: 0;
-}
+
 h5 {
 	margin: 0px;
 	font-size: 11px;
 	font-family: 'Cinzel', serif;
 }
-
 
 
 
@@ -485,5 +479,14 @@ h5 {
 	color: #F28773;
 	text-decoration-color: #F28773;
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	}
+	footer {
+	height: 65px;
+	}
+	.foot__li a{
+	font-size: 16px;
+	}
+	h5 {
+	font-size: 10px;
 	}
 }
