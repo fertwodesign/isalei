@@ -60,9 +60,6 @@ h1, ul, img {
 }
 
 
-
-
-
 #input-search{
     width: 300px;
     height: 40px;
@@ -153,12 +150,6 @@ tbody tr td a:hover{
     width: 240px; 
 }
 
-
-
-
-
-
-
 .sub {
 	text-align: center;
 	background: #000000;
@@ -190,13 +181,12 @@ tbody tr td a:hover{
 }
 
 
-
-
 .prox {
 	width: 50%;
 	margin: auto;
 	overflow: hidden;
 	height: 100%;
+	padding: 10px;
 }
 
 
@@ -360,10 +350,8 @@ h5 {
 	.slider {
 		width: 100%;
 	}
-	.prox {
+	.prox img{
 		width: 100%;
-		display: flex;
-		list-style: none;
 	}
 	.nav {
 	background-color: #000000;
@@ -402,7 +390,7 @@ h5 {
 	text-decoration: none;
 	}
 
-		#input-search{
+	#input-search{
     width: 120px;
     height: 35px;
     font-size: 16px;
