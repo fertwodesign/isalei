@@ -357,8 +357,11 @@ h5 {
 	.slider {
 		width: 100%;
 	}
-	.prox img{
+	.prox img {
 		width: 100%;
+	}
+	.contacto {
+		width: 97%;
 	}
 	.nav {
 	background-color: #000000;
