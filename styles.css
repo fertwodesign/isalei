@@ -243,11 +243,10 @@ tbody tr td a:hover{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding: 4px;
 }
 
 .product-container {
-	margin-left: 2px;
+	margin: 5px;
 	padding: 2px 16px;
 	position: relative;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
