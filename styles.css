@@ -293,8 +293,8 @@ tbody tr td a:hover{
 
 .product-container h3 {
 	font-size: 32px;
-	margin-bottom: 10px;
 	margin-left: 10px;
+	bottom: 20px;
 	color: #F28773;
 }
 
